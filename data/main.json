@@ -5,15 +5,15 @@
       "date": "2024-12-15",
       "title": "Проект Абстракция",
       "description": "Исследование формы и цвета в абстрактной композиции. Работа над балансом между хаосом и порядком.",
-      "mainImage": "https://via.placeholder.com/400/600/6f03fc?text=Main+Image+1",
+      "mainImage": "https://i.imgur.com/hnuGpTL.gif",
       "screenshots": [
-        "https://via.placeholder.com/300/200/03fc9d?text=Screenshot+1",
-        "https://via.placeholder.com/300/200/03f4fc?text=Screenshot+2",
-        "https://via.placeholder.com/300/200/f803fc?text=Screenshot+3"
+        "https://i.imgur.com/PcLjYmx.gif",
+        "https://i.imgur.com/PcLjYmx.gif",
+        "https://i.imgur.com/PcLjYmx.gif"
       ],
       "video": {
         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-        "thumbnail": "https://via.placeholder.com/400/225/6f03fc?text=Video+1",
+        "thumbnail": "https://i.imgur.com/i870GW9.gif",
         "duration": "05:23"
       }
     },
@@ -22,15 +22,15 @@
       "date": "2024-12-10",
       "title": "Цифровой Пейзаж",
       "description": "Создание атмосферного пейзажа с использованием современных техник цифровой живописи.",
-      "mainImage": "https://via.placeholder.com/400/600/03fc9d?text=Main+Image+2",
+      "mainImage": "https://i.imgur.com/hnuGpTL.gif",
       "screenshots": [
-        "https://via.placeholder.com/300/200/6f03fc?text=Screenshot+1",
-        "https://via.placeholder.com/300/200/03f4fc?text=Screenshot+2",
-        "https://via.placeholder.com/300/200/f803fc?text=Screenshot+3"
+        "https://i.imgur.com/PcLjYmx.gif",
+        "https://i.imgur.com/PcLjYmx.gif",
+        "https://i.imgur.com/PcLjYmx.gif"
       ],
       "video": {
         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-        "thumbnail": "https://via.placeholder.com/400/225/03fc9d?text=Video+2",
+        "thumbnail": "https://i.imgur.com/i870GW9.gif",
         "duration": "08:15"
       }
     },
@@ -39,19 +39,20 @@
       "date": "2024-12-05",
       "title": "Портрет в Стиле",
       "description": "Экспериментальный портрет, сочетающий классические и современные техники.",
-      "mainImage": "https://via.placeholder.com/400/600/03f4fc?text=Main+Image+3",
+      "mainImage": "https://i.imgur.com/hnuGpTL.gif",
       "screenshots": [
-        "https://via.placeholder.com/300/200/6f03fc?text=Screenshot+1",
-        "https://via.placeholder.com/300/200/03fc9d?text=Screenshot+2",
-        "https://via.placeholder.com/300/200/f803fc?text=Screenshot+3"
+        "https://i.imgur.com/PcLjYmx.gif",
+        "https://i.imgur.com/PcLjYmx.gif",
+        "https://i.imgur.com/PcLjYmx.gif"
       ],
       "video": {
         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-        "thumbnail": "https://via.placeholder.com/400/225/03f4fc?text=Video+3",
+        "thumbnail": "https://i.imgur.com/i870GW9.gif",
         "duration": "06:42"
       }
     }
   ]
 }
+
 
 
