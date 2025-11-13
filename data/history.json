@@ -17,9 +17,9 @@
       "title": "Эксперименты с пейзажами",
       "description": "Углубление в создание атмосферных цифровых пейзажей. Изучение техник создания глубины и атмосферы в цифровой живописи. Работа над передачей настроения через цвет и свет. Эксперименты с различными стилями и подходами к рендерингу природных сцен.",
       "images": [
-        "https://via.placeholder.com/252/352/f803fc?text=Image+1",
-        "https://via.placeholder.com/252/352/6f03fc?text=Image+2",
-        "https://via.placeholder.com/252/352/03fc9d?text=Image+3"
+        "https://i.imgur.com/hnuGpTL.gif",
+        "https://i.imgur.com/hnuGpTL.gif",
+        "https://i.imgur.com/hnuGpTL.gif"
       ]
     },
     {
@@ -29,7 +29,7 @@
       "description": "Работа над улучшением техники создания портретов. Изучение анатомии и пропорций, эксперименты с различными стилями портретной живописи. Поиск баланса между реализмом и стилизацией. Разработка собственного подхода к передаче характера и эмоций в портрете.",
       "images": [
         "https://via.placeholder.com/252/352/03f4fc?text=Image+1",
-        "https://via.placeholder.com/252/352/f803fc?text=Image+2",
+        "https://i.imgur.com/hnuGpTL.gif",
         "https://via.placeholder.com/252/352/6f03fc?text=Image+3"
       ]
     },
@@ -40,12 +40,13 @@
       "description": "Эксперименты с различными цифровыми материалами и текстурами. Изучение способов создания реалистичных поверхностей в цифровой живописи. Работа над передачей различных материалов: металл, стекло, ткань, кожа. Разработка библиотеки текстур для будущих проектов.",
       "images": [
         "https://via.placeholder.com/252/352/03fc9d?text=Image+1",
-        "https://via.placeholder.com/252/352/03f4fc?text=Image+2",
+        "https://i.imgur.com/ER4e2TQ.png",
         "https://via.placeholder.com/252/352/f803fc?text=Image+3"
       ]
     }
   ]
 }
+
 
 
 
