@@ -1,0 +1,81 @@
+{
+  "groups": [
+    {
+      "id": "1",
+      "title": "Процесс создания: Абстракция",
+      "description": "Подробные скриншоты процесса создания абстрактной композиции",
+      "screenshots": [
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+1",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+2",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+3",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+4",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+5",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+6",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+7",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+8",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+9",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+10",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+11",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+12",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+13",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+14",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+15",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+16",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+17",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+18"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Процесс создания: Пейзаж",
+      "description": "Этапы создания цифрового пейзажа от наброска до финальной работы",
+      "screenshots": [
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+1",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+2",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+3",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+4",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+5",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+6",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+7",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+8",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+9",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+10",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+11",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+12",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+13",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+14",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+15",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+16",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+17",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+18",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+19",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+20",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+21",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+22",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+23",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+24"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Процесс создания: Портрет",
+      "description": "Детальный процесс создания портрета",
+      "screenshots": [
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+1",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+2",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+3",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+4",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+5",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+6",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+7",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+8",
+        "https://via.placeholder.com/400/300/03f4fc?text=Screenshot+9",
+        "https://via.placeholder.com/400/300/f803fc?text=Screenshot+10",
+        "https://via.placeholder.com/400/300/6f03fc?text=Screenshot+11",
+        "https://via.placeholder.com/400/300/03fc9d?text=Screenshot+12"
+      ]
+    }
+  ]
+}
+
+
