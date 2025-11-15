@@ -1,0 +1,138 @@
+{
+  "groups": [
+    {
+      "id": "1",
+      "title": "Видео процесса: Абстракция",
+      "date": "2024-12-15",
+      "description": "Записи процесса создания абстрактных композиций",
+      "videos": [
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/6f03fc?text=Video+1",
+          "duration": "05:23",
+          "title": "Создание композиции №1"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/03fc9d?text=Video+2",
+          "duration": "08:15",
+          "title": "Создание композиции №2"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/03f4fc?text=Video+3",
+          "duration": "06:42",
+          "title": "Создание композиции №3"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/f803fc?text=Video+4",
+          "duration": "04:30",
+          "title": "Создание композиции №4"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/6f03fc?text=Video+5",
+          "duration": "07:12",
+          "title": "Создание композиции №5"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/03fc9d?text=Video+6",
+          "duration": "05:55",
+          "title": "Создание композиции №6"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/03f4fc?text=Video+7",
+          "duration": "09:20",
+          "title": "Создание композиции №7"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/f803fc?text=Video+8",
+          "duration": "10:45",
+          "title": "Создание композиции №8"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Видео процесса: Пейзажи",
+      "date": "2024-12-10",
+      "description": "Записи создания цифровых пейзажей",
+      "videos": [
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/6f03fc?text=Video+1",
+          "duration": "12:30",
+          "title": "Горный пейзаж"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/03fc9d?text=Video+2",
+          "duration": "11:15",
+          "title": "Морской берег"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/03f4fc?text=Video+3",
+          "duration": "08:45",
+          "title": "Лесной пейзаж"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/f803fc?text=Video+4",
+          "duration": "07:20",
+          "title": "Городской пейзаж"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/6f03fc?text=Video+5",
+          "duration": "06:10",
+          "title": "Закат над озером"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/03fc9d?text=Video+6",
+          "duration": "09:30",
+          "title": "Утренний туман"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Видео процесса: Портреты",
+      "date": "2024-12-05",
+      "description": "Записи создания портретов",
+      "videos": [
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/03f4fc?text=Video+1",
+          "duration": "10:20",
+          "title": "Портрет в классическом стиле"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/f803fc?text=Video+2",
+          "duration": "08:45",
+          "title": "Экспериментальный портрет"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/6f03fc?text=Video+3",
+          "duration": "07:15",
+          "title": "Портрет в стиле поп-арт"
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+          "thumbnail": "https://via.placeholder.com/400/225/03fc9d?text=Video+4",
+          "duration": "09:50",
+          "title": "Портрет в цифровом стиле"
+        }
+      ]
+    }
+  ]
+}
+
+
