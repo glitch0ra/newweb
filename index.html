@@ -64,74 +64,138 @@
             baseText: "GLITCH SLIMES",
             specialMinReplace: 4,
             specialMaxReplace: 9,
-            specialReplacements: {G:"G̶͇̠̾̕",L:"L̶̫̝͎̈́̑",I:"I̷̢̫̱͛̍̚",T:"T̵̛̫̲̖̙̓̐̇",C:"C̷̛̤͂",H:"Ḧ̸̤̥́̈́͂́",S:"S̵̯̍̇͛",M:"M̶̺͋͛̇",E:"Ẻ̴̼̗̓͒"},
-            flashText: "F̸♥̴C̵K̵ ̶M̶E̷",
-            flashInterval: 10000,
-            flashCount: [3,5],
-            flashSpeed: 125
+            specialReplacements: {
+                G: "G̶͇̠̾̕",
+                L: "L̶̫̝͎̈́̑",
+                I: "I̷̢̫̱͛̍̚",
+                T: "T̵̛̫̲̖̙̓̐̇",
+                C: "C̷̛̤͂",
+                H: "Ḧ̸̤̥́̈́͂́",
+                S: "S̵̯̍̇͛",
+                M: "M̶̺͋͛̇",
+                E: "Ẻ̴̼̗̓͒"
+            }
         },
         n = e.baseText.split(""),
-        l = n.map((n,l)=>e.specialReplacements[n]?l:-1).filter(e=>-1!==e),
-        a = n.map((e,n)=>" "!==e?n:-1).filter(e=>-1!==e),
-        t = false,
+        l = n.map((n, l) => e.specialReplacements[n] ? l : -1).filter(e => -1 !== e),
+        a = n.map((e, n) => " " !== e ? n : -1).filter(e => -1 !== e),
+        t = !1,
         i = null,
         r = null,
         c = null,
-        u = false,
-        f = null;
+        // New variables for flash effect
+        isFlashing = !1,
+        flashInterval = null,
+        flashTimeout = null;
 
-    function o(e,n){for(var l=new Set;l.size<n&&l.size<e.length;)l.add(e[Math.floor(Math.random()*e.length)]);return Array.from(l)}
-
-    async function flash(){
-        if(u||!t)return;
-        u=true;p();
-        let n=e.flashCount[0]+Math.floor(Math.random()*(e.flashCount[1]-e.flashCount[0]+1));
-        for(let l=0;l<n;l++){
-            document.title=e.flashText;
-            await new Promise(r=>setTimeout(r,e.flashSpeed));
-            document.title=e.baseText;
-            if(l<n-1)await new Promise(r=>setTimeout(r,e.flashSpeed));
-        }
-        u=false;
-        if(t&&!document.hidden)s();
+    function o(e, n) {
+        for (var l = new Set; l.size < n && l.size < e.length;) l.add(e[Math.floor(Math.random() * e.length)]);
+        return Array.from(l)
     }
 
-    function s(){
-        if(u)return;
-        t=true;
-        (function g(){
-            if(!t||u)return;
-            document.title=function(){
-                try{
-                    let t=[...n],i=Math.min(e.specialMinReplace+Math.floor(Math.random()*(e.specialMaxReplace-e.specialMinReplace+1)),l.length);
-                    o(l,i).forEach(l=>{t[l]=e.specialReplacements[n[l]]});
-                    let r=new Set(t.map((e,l)=>e!==n[l]?l:-1).filter(e=>0<=e)),c=a.filter(e=>!r.has(e));
-                    return o(c,Math.min(e.minReplace+Math.floor(Math.random()*(e.maxReplace-e.minReplace+1)),c.length)).forEach(n=>{
-                        t[n]=e.glitchChars[Math.floor(Math.random()*e.glitchChars.length)]
-                    }),t.join("")
-                }catch(s){return e.baseText}
-            }();
-            i=setTimeout(g,e.interval);
-        })();
+    function s() {
+        if (isFlashing || document.hidden) return;
+        t || (t = !0, function r() {
+            t && !isFlashing && !document.hidden && (document.title = function() {
+                try {
+                    let t = [...n],
+                        i = Math.min(e.specialMinReplace + Math.floor(Math.random() * (e.specialMaxReplace - e.specialMinReplace + 1)), l.length),
+                        r = (o(l, i).forEach(l => {
+                            t[l] = e.specialReplacements[n[l]]
+                        }), new Set(t.map((e, l) => e !== n[l] ? l : -1).filter(e => 0 <= e))),
+                        c = a.filter(e => !r.has(e));
+                    return o(c, Math.min(e.minReplace + Math.floor(Math.random() * (e.maxReplace - e.minReplace + 1)), c.length)).forEach(n => {
+                        t[n] = e.glitchChars[Math.floor(Math.random() * e.glitchChars.length)]
+                    }), t.join("")
+                } catch (s) {
+                    return e.baseText
+                }
+            }(), i = setTimeout(r, e.interval))
+        }())
     }
 
-    function p(){t=false;i&&clearTimeout(i);i=null;}
+    function p() {
+        t = !1, i && (clearTimeout(i), i = null)
+    }
 
-    function v(){
-        if(!t){
-            s();
-            f=setInterval(()=>{t&&!document.hidden&&!u&&flash()},e.flashInterval);
-            let n=()=>{
-                c&&clearTimeout(c);
-                document.hidden?(p(),f&&clearInterval(f)):c=setTimeout(()=>{s();f=setInterval(()=>{t&&!document.hidden&&!u&&flash()},e.flashInterval)},100);
-            };
-            document.addEventListener("visibilitychange",n);
-            window.addEventListener("beforeunload",()=>{p();f&&clearInterval(f)});
-            return()=>{p();f&&clearInterval(f);document.removeEventListener("visibilitychange",n);window.removeEventListener("beforeunload",p);c&&clearTimeout(c);}
+    // New flash sequence function
+    function startFlashSequence() {
+        if (isFlashing || document.hidden) return;
+        isFlashing = !0;
+        p(); // Stop regular glitch
+        
+        const flashText = "F̸♥̴C̵K̵ ̶M̶E̷";
+        const baseText = e.baseText;
+        let flashCount = 0;
+        const maxFlashes = 3 + Math.floor(Math.random() * 3); // 3-5 flashes
+        
+        function doFlash() {
+            if (flashCount >= maxFlashes || document.hidden) {
+                endFlashSequence();
+                return;
+            }
+            
+            document.title = flashText;
+            flashCount++;
+            
+            flashTimeout = setTimeout(() => {
+                if (document.hidden) {
+                    endFlashSequence();
+                    return;
+                }
+                document.title = baseText;
+                flashTimeout = setTimeout(doFlash, 50);
+            }, 50);
         }
+        
+        doFlash();
     }
     
-    "loading"===document.readyState?document.addEventListener("DOMContentLoaded",()=>{r=v()},{once:!0}):r=v();
+    function endFlashSequence() {
+        clearTimeout(flashTimeout);
+        isFlashing = !1;
+        if (!document.hidden) s(); // Restart glitch
+    }
+
+    function f() {
+        if (t) return;
+        
+        // Start 10-second flash interval
+        flashInterval = setInterval(() => {
+            if (!document.hidden && !isFlashing) startFlashSequence();
+        }, 10000);
+        
+        s(); // Start regular glitch
+        
+        let visibilityHandler = () => {
+            c && clearTimeout(c);
+            if (document.hidden) {
+                p();
+                isFlashing && endFlashSequence();
+            } else if (!t && !isFlashing) {
+                c = setTimeout(s, 100);
+            }
+        };
+        
+        document.addEventListener("visibilitychange", visibilityHandler);
+        window.addEventListener("beforeunload", cleanup);
+        
+        function cleanup() {
+            p();
+            isFlashing && endFlashSequence();
+            clearInterval(flashInterval);
+            flashInterval = null;
+            document.removeEventListener("visibilitychange", visibilityHandler);
+            window.removeEventListener("beforeunload", cleanup);
+            c && clearTimeout(c);
+        }
+        
+        return cleanup;
+    }
+    
+    if ("loading" === document.readyState) {
+        document.addEventListener("DOMContentLoaded", () => r = f(), { once: !0 });
+    } else r = f();
 }();
     </script>
 
