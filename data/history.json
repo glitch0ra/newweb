@@ -1,0 +1,47 @@
+{
+    "entries": [{
+            "id": "1",
+            "date": "2024-12-15",
+            "title": "New Series of Works",
+            "description": "Beginning work on a new series of abstract compositions. Exploring new techniques and approaches to creating digital art. Working on balance between form and content, experimenting with color and texture. The creation process includes many iterations and finding the optimal visual solution.",
+            "images": [
+                "https://webglichhost.pages.dev/4.avif",
+                "https://webglichhost.pages.dev/5.avif",
+                "https://webglichhost.pages.dev/6.avif"
+            ]
+        },
+        {
+            "id": "2",
+            "date": "2024-12-10",
+            "title": "Landscape Experiments",
+            "description": "Deepening into creating atmospheric digital landscapes. Studying techniques for creating depth and atmosphere in digital painting. Working on conveying mood through color and light. Experimenting with various styles and approaches to rendering natural scenes.",
+            "images": [
+                "https://webglichhost.pages.dev/10.avif",
+                "https://webglichhost.pages.dev/11.avif",
+                "https://webglichhost.pages.dev/12.avif"
+            ]
+        },
+        {
+            "id": "3",
+            "date": "2024-12-05",
+            "title": "Portrait Technique Development",
+            "description": "Working on improving portrait creation techniques. Studying anatomy and proportions, experimenting with various portrait painting styles. Seeking balance between realism and stylization. Developing a personal approach to conveying character and emotions in portraits.",
+            "images": [
+                "https://webglichhost.pages.dev/13.avif",
+                "https://webglichhost.pages.dev/14.avif",
+                "https://webglichhost.pages.dev/15.avif"
+            ]
+        },
+        {
+            "id": "4",
+            "date": "2024-11-28",
+            "title": "Exploring New Materials",
+            "description": "Experiments with various digital materials and textures. Studying ways to create realistic surfaces in digital painting. Working on conveying various materials: metal, glass, fabric, leather. Developing a texture library for future projects.",
+            "images": [
+                "https://webglichhost.pages.dev/16.avif",
+                "https://webglichhost.pages.dev/17.avif",
+                "https://webglichhost.pages.dev/1.avif"
+            ]
+        }
+    ]
+}

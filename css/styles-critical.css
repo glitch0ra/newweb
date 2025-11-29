@@ -1,0 +1,284 @@
+/* Critical CSS: ТОЛЬКО критичные стили для первого экрана (above-the-fold) */
+
+/* Базовый reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Отключаем outline только для элементов с tabindex="-1" (программный фокус) */
+/* Для обычных элементов outline будет показываться при клавиатурной навигации через :focus-visible */
+/* Используем высокую специфичность вместо !important */
+body [tabindex="-1"]:focus,
+body [tabindex="-1"]:focus-visible,
+html body [tabindex="-1"]:focus,
+html body [tabindex="-1"]:focus-visible {
+    outline: none;
+    -webkit-focus-ring-color: transparent;
+}
+
+/* Screen reader only - visually hidden but accessible to assistive technologies */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Jersey 20', sans-serif;
+    background-color: transparent;
+    color: #ffffff;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Background Video - критично для первого экрана */
+.background-video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200vh;
+    z-index: -2;
+    will-change: transform;
+    transform: translateZ(0); /* Hardware acceleration */
+    overflow: hidden;
+}
+
+.background-video,
+.background-video-duplicate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.background-video-duplicate {
+    top: calc(100vh - 2px);
+    margin-top: -2px;
+}
+
+/* Header Wrapper - критично для первого экрана */
+.header-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+/* Header - критично для первого экрана */
+.header {
+    position: relative;
+    height: 430px;
+    width: 1400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Navigation - критично для первого экрана */
+.nav {
+    position: relative;
+    width: 1400px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem 2rem;
+    margin-top: 0;
+    background: rgba(26, 26, 26, 0.25);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(111, 3, 252, 0.25);
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5), 0 0 16px rgba(111, 3, 252, 0.15);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #6f03fc, #03f4fc);
+    transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 0 8px rgba(111, 3, 252, 0.5);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: #6f03fc;
+    transform: translateY(-2px);
+}
+
+.nav-link.active {
+    color: #6f03fc;
+}
+
+/* Main Content - критично для первого экрана */
+.main-content {
+    position: relative;
+    z-index: 1;
+    padding: 3rem 10%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Liquid Glass Effect - базовые стили для первого экрана */
+.glass {
+    background: rgba(10, 10, 10, 0.35);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(111, 3, 252, 0.25);
+    border-radius: 16px;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.5),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.glass-strong {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(111, 3, 252, 0.4);
+    border-radius: 20px;
+    box-shadow:
+        0 12px 48px rgba(0, 0, 0, 0.7),
+        0 0 24px rgba(111, 3, 252, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.12),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Main Feed - первый пост (критично для первого экрана) */
+.main-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.post-card {
+    padding: 2rem;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.post-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 48px rgba(0, 0, 0, 0.6), 0 0 24px rgba(111, 3, 252, 0.2);
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.post-main-image {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+
+.post-main-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 2/3;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    gap: 1.5rem;
+}
+
+.post-title {
+    font-size: 1.5rem;
+    color: #6f03fc;
+    margin: 0;
+    flex: 1;
+    font-family: 'Rubik Glitch', system-ui;
+}
+
+.post-date {
+    color: #03fc9d;
+    font-family: 'Jersey 20', sans-serif;
+    font-size: 1.17rem;
+    white-space: nowrap;
+}
+
+.post-description {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Простая адаптация для мобильных, чтобы первый экран не ломался */
+@media (max-width: 768px) {
+    .header {
+        height: 260px;
+    }
+
+    .main-content {
+        padding: 2rem;
+    }
+
+    .post-grid {
+        grid-template-columns: 1fr;
+    }
+}

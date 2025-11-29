@@ -1,0 +1,22 @@
+{
+  "name": "media-gallery-spa",
+  "version": "1.0.1",
+  "description": "Single Page Application for media gallery with Liquid Glass design",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "serve": "vite preview",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "keywords": [
+    "spa",
+    "media-gallery",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+

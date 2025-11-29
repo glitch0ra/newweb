@@ -1,0 +1,54 @@
+{
+    "posts": [{
+            "id": "1",
+            "date": "2024-12-15",
+            "title": "Abstraction Project",
+            "description": "Exploration of form and color in abstract composition. Work on balance between chaos and order.",
+            "mainImage": "https://webglichhost.pages.dev/news1.avif",
+            "screenshots": [
+                "https://webglichhost.pages.dev/screenshottest.avif",
+                "https://webglichhost.pages.dev/screenshottest.avif",
+                "https://webglichhost.pages.dev/screenshottest.avif"
+            ],
+            "video": {
+                "url": "https://webglichhost.pages.dev/testvideo.webm",
+                "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+                "duration": "05:23"
+            }
+        },
+        {
+            "id": "2",
+            "date": "2024-12-10",
+            "title": "Digital Landscape",
+            "description": "Creating an atmospheric landscape using modern digital painting techniques.",
+            "mainImage": "https://webglichhost.pages.dev/news2.avif",
+            "screenshots": [
+                "https://webglichhost.pages.dev/screenshottest.avif",
+                "https://webglichhost.pages.dev/screenshottest.avif",
+                "https://webglichhost.pages.dev/screenshottest.avif"
+            ],
+            "video": {
+                "url": "https://webglichhost.pages.dev/testvideo.webm",
+                "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+                "duration": "08:15"
+            }
+        },
+        {
+            "id": "3",
+            "date": "2024-12-05",
+            "title": "Portrait in Style",
+            "description": "Experimental portrait combining classical and modern techniques.",
+            "mainImage": "https://webglichhost.pages.dev/news3.avif",
+            "screenshots": [
+                "https://webglichhost.pages.dev/screenshottest.avif",
+                "https://webglichhost.pages.dev/screenshottest.avif",
+                "https://webglichhost.pages.dev/screenshottest.avif"
+            ],
+            "video": {
+                "url": "https://webglichhost.pages.dev/testvideo.webm",
+                "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+                "duration": "06:42"
+            }
+        }
+    ]
+}

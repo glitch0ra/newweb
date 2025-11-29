@@ -1,0 +1,76 @@
+{
+  "profile": {
+    "avatar": "https://webglichhost.pages.dev/news1.avif",
+    "nickname": "DigitalArtist",
+    "bio": "Digital artist, explorer of new forms of visual expression. Working at the intersection of traditional art and modern technology, creating unique visual images. My works explore the interaction of color, form and space, creating new visual languages for expressing emotions and ideas.",
+    "bioSecond": "Each work is a journey into the unknown, an experiment with materials and techniques. I believe that art should evoke emotions, provoke thoughts and open new perspectives. In my projects, I strive for a balance between technical mastery and creative freedom."
+  },
+  "timeline": [
+    {
+      "date": "2024",
+      "event": "Beginning work on a series of abstract compositions"
+    },
+    {
+      "date": "2023",
+      "event": "Deepening into digital painting and studying new techniques"
+    },
+    {
+      "date": "2022",
+      "event": "First experiments with digital art"
+    },
+    {
+      "date": "2021",
+      "event": "Studying the fundamentals of digital graphics and design"
+    }
+  ],
+  "links": [
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com",
+      "icon": "instagram"
+    },
+    {
+      "name": "Behance",
+      "url": "https://behance.net",
+      "icon": "behance"
+    },
+    {
+      "name": "ArtStation",
+      "url": "https://artstation.com",
+      "icon": "artstation"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:artist@example.com",
+      "icon": "email"
+    }
+  ],
+  "stats": [
+    {
+      "number": "50+",
+      "label": "Works"
+    },
+    {
+      "number": "10+",
+      "label": "Collections"
+    },
+    {
+      "number": "5+",
+      "label": "Years of Experience"
+    },
+    {
+      "number": "1000+",
+      "label": "Screenshots"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Creative Philosophy",
+      "description": "Art for me is a way of exploring reality through the lens of my own perception. Each work begins with an idea that develops and transforms in the creation process. I do not strive for perfection in the classical sense, but seek a balance between technical mastery and emotional expressiveness."
+    },
+    {
+      "title": "Technical Approach",
+      "description": "In my work, I use modern digital tools, but always remember the fundamental principles of visual art. Composition, color, light and shadow - these fundamentals remain relevant regardless of the medium. I constantly study new techniques and tools, but always return to the basics that make a work of art alive and expressive."
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "groups": [
+    {
+      "id": "1",
+      "title": "Process Videos: Abstraction",
+      "date": "2024-12-15",
+      "description": "Recordings of the abstract composition creation process",
+      "videos": [
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "05:23",
+          "title": "Creating Composition #1"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "08:15",
+          "title": "Creating Composition #2"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "06:42",
+          "title": "Creating Composition #3"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "04:30",
+          "title": "Creating Composition #4"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "07:12",
+          "title": "Creating Composition #5"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "05:55",
+          "title": "Creating Composition #6"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "09:20",
+          "title": "Creating Composition #7"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "10:45",
+          "title": "Creating Composition #8"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "11:20",
+          "title": "Creating Composition #9"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "09:15",
+          "title": "Creating Composition #10"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "08:30",
+          "title": "Creating Composition #11"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "07:45",
+          "title": "Creating Composition #12"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "06:20",
+          "title": "Creating Composition #13"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "05:10",
+          "title": "Creating Composition #14"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "04:55",
+          "title": "Creating Composition #15"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "09:40",
+          "title": "Creating Composition #16"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "08:25",
+          "title": "Creating Composition #17"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "07:15",
+          "title": "Creating Composition #18"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "06:50",
+          "title": "Creating Composition #19"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "10:30",
+          "title": "Creating Composition #20"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "11:10",
+          "title": "Creating Composition #21"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "09:05",
+          "title": "Creating Composition #22"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Process Videos: Landscapes",
+      "date": "2024-12-10",
+      "description": "Recordings of digital landscape creation",
+      "videos": [
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "12:30",
+          "title": "Mountain Landscape"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "11:15",
+          "title": "Seashore"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "08:45",
+          "title": "Forest Landscape"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "07:20",
+          "title": "Urban Landscape"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "06:10",
+          "title": "Sunset Over Lake"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "09:30",
+          "title": "Morning Mist"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Process Videos: Portraits",
+      "date": "2024-12-05",
+      "description": "Recordings of portrait creation",
+      "videos": [
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "10:20",
+          "title": "Portrait in Classical Style"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "08:45",
+          "title": "Experimental Portrait"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "07:15",
+          "title": "Portrait in Pop Art Style"
+        },
+        {
+          "url": "https://webglichhost.pages.dev/testvideo.webm",
+          "thumbnail": "https://webglichhost.pages.dev/videoprewtest.avif",
+          "duration": "09:50",
+          "title": "Portrait in Digital Style"
+        }
+      ]
+    }
+  ]
+}

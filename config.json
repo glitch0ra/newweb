@@ -1,0 +1,62 @@
+{
+  "VERSION": "v1.0.1",
+  "PAGINATION": {
+    "ITEMS_PER_PAGE": 18,
+    "PAGES_TO_RENDER_INITIALLY": 2,
+    "PREVIEW_ITEMS_COUNT": 6,
+    "GRID_COLUMNS": 6
+  },
+  "CAROUSEL": {
+    "FIXED_ITEM_WIDTH": 252,
+    "ITEMS_PER_VIEW": {
+      "DESKTOP": 3,
+      "TABLET": 2,
+      "MOBILE": 1
+    },
+    "DRAG_THRESHOLD": 50,
+    "MIN_SWIPE_INTERVAL": 300,
+    "CLICK_DISTANCE_THRESHOLD": 10,
+    "CLICK_DURATION_THRESHOLD": 300,
+    "TRANSITION_DURATION": 0.4,
+    "RESIZE_DEBOUNCE_DELAY": 100
+  },
+  "PRELOADER": {
+    "BATCH_SIZE": 5
+  },
+  "VIRTUALIZATION": {
+    "OBSERVER_ROOT_MARGIN": "50px"
+  },
+  "ROUTES": {
+    "main": {
+      "path": "main",
+      "title": "Home",
+      "dataPath": "data/main.json"
+    },
+    "collections": {
+      "path": "collections",
+      "title": "Collections",
+      "dataPath": "data/collections.json"
+    },
+    "screenshots": {
+      "path": "screenshots",
+      "title": "Screenshots",
+      "dataPath": "data/screenshots.json"
+    },
+    "videos": {
+      "path": "videos",
+      "title": "Videos",
+      "dataPath": "data/videos.json"
+    },
+    "history": {
+      "path": "history",
+      "title": "History",
+      "dataPath": "data/history.json"
+    },
+    "about": {
+      "path": "about",
+      "title": "About",
+      "dataPath": "data/about.json"
+    }
+  }
+}
+
