@@ -54,12 +54,14 @@
 
     
     <title>GLITCH SLIMES</title>
+    <!-- Запрещенно редактировать. Скрипт запечатан в хэш sha256! -->
     <script>
         !function(){let e={interval:275,minReplace:1,maxReplace:2,glitchChars:"⏚\xbf⊬‽⌇⌰⸮⍜⏃⎅⁇⟟\xbf⋏‽☌⟒⏁⍙",baseText:"GLITCH SLIMES",specialMinReplace:4,specialMaxReplace:9,specialReplacements:{G:"G̶͇̠̾̕",L:"L̶̫̝͎̈́̑",I:"I̷̢̫̱͛̍̚",T:"T̵̛̫̲̖̙̓̐̇",C:"C̷̛̤͂",H:"Ḧ̸̤̥́̈́͂́",S:"S̵̯̍̇͛",M:"M̶̺͋͛̇",E:"Ẻ̴̼̗̓͒"}},n=e.baseText.split(""),l=n.map((n,l)=>e.specialReplacements[n]?l:-1).filter(e=>-1!==e),a=n.map((e,n)=>" "!==e?n:-1).filter(e=>-1!==e),t=!1,i=null,r=null,c=null;function o(e,n){for(var l=new Set;l.size<n&&l.size<e.length;)l.add(e[Math.floor(Math.random()*e.length)]);return Array.from(l)}function s(){t||(t=!0,function r(){t&&(document.title=function(){try{let t=[...n],i=Math.min(e.specialMinReplace+Math.floor(Math.random()*(e.specialMaxReplace-e.specialMinReplace+1)),l.length),r=(o(l,i).forEach(l=>{t[l]=e.specialReplacements[n[l]]}),new Set(t.map((e,l)=>e!==n[l]?l:-1).filter(e=>0<=e))),c=a.filter(e=>!r.has(e));return o(c,Math.min(e.minReplace+Math.floor(Math.random()*(e.maxReplace-e.minReplace+1)),c.length)).forEach(n=>{t[n]=e.glitchChars[Math.floor(Math.random()*e.glitchChars.length)]}),t.join("")}catch(s){return e.baseText}}(),i=setTimeout(r,e.interval))}())}function p(){t=!1,i&&(clearTimeout(i),i=null)}function f(){if(!t){s();let e=()=>{c&&clearTimeout(c),document.hidden?p():c=setTimeout(s,100)};return document.addEventListener("visibilitychange",e),window.addEventListener("beforeunload",p),()=>{p(),document.removeEventListener("visibilitychange",e),window.removeEventListener("beforeunload",p),c&&clearTimeout(c)}}}if("loading"===document.readyState){let d=()=>{r=f()};document.addEventListener("DOMContentLoaded",d,{once:!0})}else r=f()}();
     </script>
 
     <link id="favicon" rel="icon" type="image/webp" href="assets/favicon-static.webp">
     <link rel="apple-touch-icon" href="assets/favicon-static.webp">
+    <!-- Запрещенно редактировать. Скрипт запечатан в хэш sha256! -->
     <script>
          !function(){"use strict";const t={link:null,lastHref:null,set(t,e="image/webp"){if(!this.link){this.link=document.getElementById("favicon")||this.create();const t=document.querySelector('link[rel="icon"]:not([id="favicon"])');t&&t.remove()}t!==this.lastHref&&(this.link.href=t,this.link.type=e,this.lastHref=t)},create(){const t=document.createElement("link");return t.id="favicon",t.rel="icon",t.sizes="34x34",document.head.appendChild(t),t}},e={frames:[],currentFrame:0,timeoutId:null,isRunning:!1,atlasImage:null,interval:120,async init(){const t=navigator.connection;if(t&&(t.saveData||["slow-2g","2g"].includes(t.effectiveType)))this.fallback();else try{await this.loadAtlas(),await this.generateFrames(),document.hidden||this.start()}catch(t){this.fallback()}},loadAtlas(){return new Promise((t,e)=>{const i=new Image,a=setTimeout(()=>e(Error("Timeout")),3e3);i.crossOrigin="anonymous",i.onload=()=>{clearTimeout(a),this.atlasImage=i,t()},i.onerror=()=>{clearTimeout(a),e(Error("Load failed"))},i.src="assets/favicon-atlas.webp"})},async generateFrames(){const t=document.createElement("canvas");t.width=34,t.height=34;const e=t.getContext("2d",{alpha:!0});e.imageSmoothingEnabled=!1;const i=this.atlasImage,a=[];for(let n=0;n<26;n++)e.clearRect(0,0,34,34),e.drawImage(i,34*n,0,34,34,0,0,34,34),a[n]=t.toDataURL("image/webp",.95);this.frames=a,this.atlasImage=null},start(){this.isRunning||(this.isRunning=!0,this.schedule())},stop(){this.isRunning=!1,this.timeoutId&&(clearTimeout(this.timeoutId),this.timeoutId=null)},schedule(){this.timeoutId=setTimeout(()=>{this.updateFavicon(),this.isRunning&&this.schedule()},this.interval)},updateFavicon(){t.set(this.frames[this.currentFrame]),this.currentFrame=(this.currentFrame+1)%26},fallback(){this.stop(),t.set("assets/favicon-static.webp")},cleanup(){this.stop(),this.frames=[],this.atlasImage=null}},i=document.currentScript;i&&!i.dataset.initialized&&(i.dataset.initialized="true","loading"===document.readyState?document.addEventListener("DOMContentLoaded",()=>{e.init()},{once:!0}):e.init(),document.addEventListener("visibilitychange",()=>{document.hidden?e.stop():e.start()},{passive:!0}),window.addEventListener("beforeunload",()=>{e.cleanup()},{passive:!0}))}();
     </script>
@@ -647,6 +649,7 @@ body {
 <noscript>
     <link rel="stylesheet" href="css/styles.css">
 </noscript>
+    <!-- Запрещенно редактировать. Скрипт запечатан в хэш sha256! -->
     <script>
         document.getElementById("preload-fonts").addEventListener("load",(function(){this.rel="stylesheet"})),document.getElementById("preload-css").addEventListener("load",(function(){this.rel="stylesheet"}));
     </script>
@@ -730,28 +733,11 @@ body {
     </div>
 
     <!-- Загрузка конфигурации ПЕРВОЙ (синхронно, до всех остальных скриптов) -->
+    <!-- Синхронная загрузка config.json для гарантии доступности APP_CONFIG до загрузки модулей -->
+    <!-- Запрещенно редактировать. Скрипт запечатан в хэш sha256! -->
+    <!-- Не забыть в ручную на финале заменить на асинхрон -->
     <script>
-        // Синхронная загрузка config.json для гарантии доступности APP_CONFIG до загрузки модулей
-        (function() {
-            try {
-                const xhr = new XMLHttpRequest();
-                xhr.open('GET', 'config.json', false); // false = синхронный запрос
-                xhr.send();
-                
-                if (xhr.status === 200) {
-                    const config = JSON.parse(xhr.responseText);
-                    window.APP_CONFIG = config;
-                } else {
-                    console.error('Failed to load config.json, status:', xhr.status);
-                    // Fallback: создаем пустой конфиг
-                    window.APP_CONFIG = {};
-                }
-            } catch (error) {
-                console.error('Error loading config.json:', error);
-                // Fallback: создаем пустой конфиг
-                window.APP_CONFIG = {};
-            }
-        })();
+        !function(){window.APP_CONFIG={};try{const r=new XMLHttpRequest;r.open("GET","config.json",!1),r.send();const s=r.status;if((s===200||s===304)&&r.responseText){try{const c=JSON.parse(r.responseText);c&&(window.APP_CONFIG=c,localStorage.setItem("app_config_v1",r.responseText))}catch(e){}}}catch(e){const c=localStorage.getItem("app_config_v1");if(c)try{const p=JSON.parse(c);p&&(window.APP_CONFIG=p)}catch(e2){}}}();
     </script>
 
     <!-- WebGL шейдер для анимации загрузки (загружается раньше для быстрой инициализации) -->
