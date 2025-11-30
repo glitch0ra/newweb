@@ -650,7 +650,7 @@ body {
 </noscript>
     <!-- Запрещенно редактировать. Скрипт запечатан в хэш sha256! -->
     <script>
-        document.getElementById("preload-fonts").addEventListener("load",(function(){this.rel="stylesheet"})),document.getElementById("preload-css").addEventListener("load",(function(){this.rel="stylesheet"}));
+        document.addEventListener("DOMContentLoaded",(function(){var e=document.getElementById("preload-fonts"),t=document.getElementById("preload-css");e&&e.addEventListener("load",(function(){this.rel="stylesheet"})),t&&t.addEventListener("load",(function(){this.rel="stylesheet"}))}));
     </script>
 </head>
 
