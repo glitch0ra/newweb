@@ -306,7 +306,23 @@
     <!-- Critical CSS - встроен для устранения блокировки рендеринга -->
     <style>
 /* Critical CSS: ТОЛЬКО критичные стили для первого экрана (above-the-fold) */
+        
 
+@font-face {
+  font-display: swap; 
+  font-family: 'Rubik Glitch';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/rubik-glitch-v2-latin-regular.woff2') format('woff2');
+}
+        
+@font-face {
+  font-display: swap; 
+  font-family: 'Jersey 20';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/jersey-20-v4-latin-regular.woff2') format('woff2');
+}
 /* Базовый reset */
 * {
     margin: 0;
@@ -636,12 +652,8 @@ body {
 }
     </style>
     <!-- Предзагрузка шрифтов (Jersey 20, Rubik Glitch) -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Rubik+Glitch&display=swap" as="style" id="preload-fonts">
-<noscript>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Rubik+Glitch&display=swap" rel="stylesheet">
-</noscript>
+<link rel="preload" href="assets/fonts/jersey-20-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/rubik-glitch-v2-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 
 <!-- Deferred CSS -->
 <link rel="preload" href="css/styles.css" as="style" id="preload-css">
