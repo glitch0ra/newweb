@@ -302,7 +302,11 @@
             }
         }
     </style>
-
+    
+    <!-- Предзагрузка локальных шрифтов (Jersey 20, Rubik Glitch) -->
+<link rel="preload" href="assets/fonts/jersey-20-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/rubik-glitch-v2-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    
     <!-- Critical CSS - встроен для устранения блокировки рендеринга -->
     <style>
 /* Critical CSS: ТОЛЬКО критичные стили для первого экрана (above-the-fold) */
@@ -651,10 +655,7 @@ body {
     }
 }
     </style>
-    <!-- Предзагрузка локальных шрифтов (Jersey 20, Rubik Glitch) -->
-<link rel="preload" href="assets/fonts/jersey-20-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/rubik-glitch-v2-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-
+    
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
