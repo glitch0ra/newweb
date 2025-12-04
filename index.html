@@ -61,25 +61,49 @@
     <meta name="author" content="Glitch0ra">
     <meta name="application-name" content="Glitch Slimes">
 
-    <script type="application/ld+json">
+    <!-- Schema.org (для Google, один блок) -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["WebSite", "MediaGallery"],
-  "name": "GLITCH SLIMES",
-  "alternateName": "Glitch Slimes by Glitch0ra",
-  "description": "NSFW digital art gallery featuring glitch aesthetics, monster girls and slime aesthetics",
-  "url": "https://glitch0ra.github.io/newweb/",
-  "author": {
-    "@type": "Person",
-    "name": "Glitch0ra",
-    "url": "https://glitch0ra.github.io/newweb/#/about"
-  },
-  "keywords": "glitch slime, monster-girl, slime-girl, koikatsu, glitch0ra, nsfw",
-  "contentRating": "mature",
-  "audience": {
-    "@type": "PeopleAudience",
-    "requiredMinAge": 18
-  }
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://glitch0ra.github.io/newweb/#website",
+      "name": "GLITCH SLIMES",
+      "description": "NSFW digital art gallery featuring glitch aesthetics, monster girls and slime aesthetics",
+      "url": "https://glitch0ra.github.io/newweb/",
+      "contentRating": "18+",
+      "genre": ["Digital Art", "Glitch Art", "NSFW"],
+      "keywords": "monster-girl, slime-girl, koikatsu, nsfw, glitch slime, glitch0ra",
+      "audience": {
+        "@type": "PeopleAudience",
+        "requiredMinAge": 18
+      },
+      "publisher": {
+        "@id": "https://glitch0ra.github.io/newweb/#person"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://glitch0ra.github.io/newweb/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://glitch0ra.github.io/newweb/#person",
+      "name": "Glitch0ra",
+      "url": "https://glitch0ra.github.io/newweb/",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://glitch0ra.github.io/newweb/assets/favicon-static.webp",
+        "width": 34,
+        "height": 34
+      },
+      "sameAs": [
+        "https://twitter.com/glitch0ra"
+      ]
+    }
+  ]
 }
 </script>
     
